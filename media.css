@@ -1,0 +1,336 @@
+@media(max-width:450px){
+	.headf{
+		flex-direction: column;
+}
+.logo img{
+	width: 8%;
+}
+.hdimg img{
+    width: 100%;
+}
+nav ul{
+    display: none;
+}
+#check:checked~ul{
+    display: block;
+    height: 20vh;
+    width: 100%;
+    z-index: 1;
+    flex-direction: column;
+    background-color: white;
+/*    position: absolute;*/
+    text-align: center;
+    margin-left: -10%;
+    margin-top: 10%;
+    transition: top 1s;
+}
+nav i{
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+}
+.bar{
+/*    position: absolute;*/
+
+    display: block;
+    float: right;
+/*    margin-right: 30px;*/
+    font-size: 40px;
+    color: black;
+}
+/*nav ul{
+    position: absolute;
+    right: 35%;
+    text-align: center;
+}*/
+nav ul li{
+    line-height: 35px;
+    margin-bottom:40px;
+}
+.heada{
+    margin-left: 30%;
+    line-height:45px ;
+}
+.hdimg{
+    width: 95%;
+	margin-left: 60%;
+}
+.hdicons ul{
+	margin-left: 90%;
+}
+	 /* My clients part start */
+	
+    .Myclients{
+        width:99%;
+    }
+.my{
+    margin-left: -25%;
+}
+.abc{
+    display:flex;
+    flex-direction:column;
+    width:99%;
+}
+
+/*/my client part end/*/
+
+/*/vision part start/*/
+    
+    .vision{
+    flex-direction: column;
+    }
+    .card{
+        border:none;
+        text-align: center;
+    }
+    .card img{
+        display: block;
+        width: 100px;
+    }
+    .vision .title{
+        margin-left: -20px;
+    }
+    .content{
+        text-align: center;
+    }
+
+/*vision part end   */
+
+/*/my skill start/*/
+
+.myskill{
+    display:flex;
+    flex-direction:column;
+    
+    margin-left:auto;
+    width:99%;
+    margin-top:0%;
+}
+.myskill .colour{
+    margin-left:15%;
+}
+.left-skill{
+    width:99%;
+   margin: auto;
+}
+
+.left-skill h1{
+    text-align:center;
+    font-size:40px;
+    margin-top:3px;
+    margin: auto;
+}
+.left-skill .para{
+    font-size:15px;
+    margin-top:50px;
+    margin:auto;
+    text-align: center;
+}
+    
+.right-skill{
+    width: 99%;
+    margin:auto;
+}
+.skill{
+        width:50%;
+        margin-left:25%;
+    }
+/*/myskill end/*/
+.numbers {
+        width: 100%;
+        margin: 100px 0px 100px 50px;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .count h3 {
+        font-size: 90%;
+        margin: 10px 0px 0px 30px;
+    }
+
+
+
+/*/hire me section/*/
+
+.Hire{
+    flex-direction: column;
+    
+    width:99%;
+}
+.Hire .picture{
+    padding-left: 10%;
+    width: 65%;
+    margin-top:-20%;
+}
+.Hire .picture img{
+    width:125%;
+    margin:auto;
+}
+.picture .exp{
+    width: 80%;
+    margin-top:-20%;
+}
+
+.Hire .aboutme{
+    width: 99%;
+    margin:auto;
+}
+.aboutme .colour{
+     margin-left: 15%;
+}
+.aboutme h1{
+    font-size: 25px;
+    margin-top:-6%;
+    color: #002b80;
+    padding: %;
+    
+    
+}
+/*.aboutme .para{
+    
+    font-weight: normal;
+    opacity: 0.7;
+} */
+.aboutme .para1{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 8%;
+}
+.aboutme button{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+/*/hire me section end/*/
+
+/*slide part */
+    .carousal{
+        width:99%;
+        margin-top:1%;
+        
+    }
+    .carousal .test{
+    margin-left: 29%;
+}
+    .slide-content{
+        flex-direction:column;
+    }
+    .slide-content .left-side{
+        width:99%;
+        margin:auto;
+    }
+    .slide-content .right-side{
+        width:99%;
+        margin:auto;
+    }
+
+/*  carousal or slider part end*/
+
+/*/image part start/*/
+
+.images, .images1{
+    display: block;
+    margin-top:-1%;
+}
+.images .myimage{
+    width: 97%;
+    height: 250px;
+    margin-top:1%;
+    background-size: contain;
+}
+.images1 .myimage{
+    width: 97%;
+    background-size: contain;
+}
+.image .imagedetail{
+    margin-top: -150px;
+}
+/*/image part end/*/
+/*/FAQ part start/*/
+
+#colour{
+    margin-left:16%;
+}
+    .faqs h1{
+        font-size:29px;
+        margin-top:-5%;
+    }
+    #q1 , #q2 ,#q3 ,#q4 ,#q5,#a1 ,#a2,#a3,#a4,#a5 {
+        width:89%;
+    }
+    .question{
+        font-size:20px;
+        margin-top:25px;
+        padding-top:25px;
+        height:5vh;
+    }
+    .answer{
+        font-size:18px;
+        margin-top:25px;
+        padding-top:20px;
+        height:20vh;
+        display:none;
+        
+    }
+
+/*/FAQ part End/*/
+
+/*/freelancer part start/*/
+.freelancer{
+    margin-top: 38px;
+    width: 99%;
+}
+
+/*/freelancer part end/*/
+
+    /* blog part start */
+    
+    
+    #blog1{
+        font-size: 30px;
+    }
+    .blog{
+        width: 90%;
+        flex-direction: column;
+        
+    }
+    .myblog{
+        width: 95%;
+    }
+    /*blog part end */
+    /*footer part start*/
+
+footer{
+    background-image: url(images/bg2.jpg);
+    flex-direction:column;
+    margin-top: 7%;
+
+}
+
+.left-foot p{
+    font-size: 21px;
+}
+
+.copy{
+    width: 170%;
+    margin: auto;
+    padding: 1px 30px 1px 35px;
+    margin-left:-33%
+}
+
+    .left-foot{
+        margin-left:5%;
+    }
+    .right-foot form {
+        width:99%;
+        width: 100%;
+    }
+    footer .right-foot{
+        width:98%;
+        margin-top:8%
+    
+    }
+    
+/*  footer part end*/
+}

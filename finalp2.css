@@ -1,0 +1,665 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+nav{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+/*	position: fixed;*/
+}
+body{
+	overflow-x: hidden;
+}
+#check{
+	display: none;
+}
+.bar{
+	display: none;
+}
+.head{
+	background-image: url("images/bg1.jpg");
+	width: 100%;
+	height: auto;
+
+}
+nav ul{
+	margin: 20px 0px 10px 190px;
+}
+nav a{
+text-decoration: none;
+margin: 10px 0px 10px 20px;
+color: darkblue;
+/*background-color: white;*/
+font-weight: bolder;
+/*background-color: darkblue;*/
+/*box-shadow: 0px 0px 5px 0px;*/
+padding: 5px 10px 5px 10px;
+
+}
+ button{
+	padding: 8px 22px 7px 22px;
+	box-shadow: 0px 0px 10px 0px blue;
+	background-color: darkblue;
+	color: white;
+}
+#navb{
+	box-shadow: none;
+}
+.headf{
+	display: flex;
+}
+.head1 li{
+	display: inline;
+	font-size: 25px;
+	list-style: nones;
+	margin-left: 20px;
+	margin-top: 0px;	
+}
+
+.logo img{
+	position: absolute;
+	top: 5px;
+	left: 20px;
+	width: 4%;
+	}
+.hb .headbt{
+	position: relative;
+	left: 70%;
+	top: -25px;
+	width: 140px;
+	height: 40px;
+	background-color: #002b80;
+	color:white ;
+}
+.heada{
+	width: 48%;
+	color: #002b80;
+	line-height:55px ;
+	font-size: 23px;
+	margin-left: 70px;
+	margin-top: 50px;
+
+}
+.heada span{
+	margin-left: 35px;
+}
+#habt{
+	width: 115px;
+	height: 30px;
+}
+.heada p{
+	word-spacing: 5px;
+	margin-top: 150px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 18px;
+	font-style: italic;
+}
+.headb{
+	width:48%
+}
+.hdimg{
+	margin-top: 15%;
+	margin-left: 40%;
+
+}
+.hdicons ul{
+	display: flex;
+	list-style: none;
+	margin-left: 56%;
+
+
+}
+.hdicons ul li {
+	padding: 8px;
+	margin: 10px;
+	font-size: 20px;
+	background-color: white;
+	color: #2556ad;
+	border-radius: 100%;
+
+}
+/* My clients part start */
+.Myclients{
+	background-color: pink;
+	height: auto;
+	color: white;
+	font-size: 20px;
+	padding-top: 50px;
+	text-align: center;
+}
+.abc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.abc img{
+	width: 20%;
+}
+.my{
+	display: flex;
+	padding-left: 40%;
+	margin-bottom: 50px;
+}
+.line{	
+	   width: 100px;
+       height: 10px;
+       margin-left: 10px; 
+       margin-right: 10px;
+       border-width: 2px;
+       border-bottom-style: solid; 
+       border-color: white; 
+}
+/*//-------My clients parts end//*/
+/*//-------Vision parts start//*/
+.vision{
+	display: flex;
+	margin-top: 100px;
+	
+}
+.card{
+	margin: 10px 60px;
+/*	border-width: 1px;*/
+/*	border-right-style: solid;*/
+/*	border-color: grey;*/
+}
+.vision .title{
+	font-size: 24px;
+	font-weight: bold;
+	color: #002b80;
+	margin-left: 20px;
+	line-height: 70px;
+}
+
+#abcde{
+	border-style: none;
+}
+/*/my skill start/*/
+.myskill{
+	display: flex;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.left-skill{
+	width: 48%;
+	margin-top: 20px;
+}
+.line1{
+	width: 100px;
+	height: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-color: #ff3333;
+
+}
+.colour{
+	display: flex;
+	margin-bottom: 50px;
+	color: #ff3333;
+}
+.left-skill h1{
+	font-size: 50px;
+	color: #002b80;
+
+}
+.left- .para{
+	font-size: 20px;
+	line-height: 30px;
+	padding-right: 100px;
+	color: #002b80;
+}
+.right-skill{
+	width: 48%;
+	background-image: url(images/skillbg.jpg);
+	padding-bottom: 65px;
+}
+.skills{
+	margin: auto;
+	margin-top: 100px;
+	width: 60%;
+	position: relative;
+}
+.skill{
+	height: 40px;
+	padding: 14px;
+	background-color: white;
+	border: 2px solid #002b80;
+	margin: 12px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #002b80;
+}
+/*/skill part ended/*/
+/*---NUMBER SECTION START-----*/
+.numbers {
+  width: 100%;
+  margin: 100px 0px 100px 0px;
+  height: 30vh;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.count {
+  width: 25%;
+  display: inline-flex;
+  margin: 25px;
+  border-bottom: 1.5px solid darkblue;
+}
+
+.count h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.count h3 {
+  font-size: 25px;
+  margin: 10px 0px 0px 15px;
+}
+
+/* ****numbers ended********** */
+
+/*/hire me section start/*/
+
+.Hire{
+	display: flex;
+	width: 100%;
+	background-image: url(images/background.jpg);
+	padding-top: 100px;
+}
+.Hire .picture{
+	width: 48%;
+	padding-left: 100px;
+}
+.picture .img{
+	position: relative;
+	left: 10%;
+	top: 0%;
+}
+.picture .exp{
+	position: relative;
+	display: flex;
+	width: 35%;
+	height: 10vh;
+	top: -25%;
+	bottom: 60px;
+	background-color: white;
+	color: #002b80;
+	border: 2px solid #002b80;
+}
+.picture .exp p{
+	padding-top: 9px;
+	font-size: 18px;
+	color: "#002b80";
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.Hire .aboutme{
+	width: 48%;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.aboutme h1{
+	font-size: 50px;
+	color: #002b80;
+}
+.aboutme .para1{
+	color: ;
+	font-weight: normal;
+	opacity: 0.7;
+}
+.aboutme button{
+	width: 150px;
+	height: 55px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	background-color: #002b80;
+	color: white;
+}
+
+/*/hire me section end/*/
+
+/*/carousal  or slider part start/*/
+
+.carousal{
+		width: 70%;
+		margin: 50px auto;
+		overflow: hidden;
+}
+.carousal .test{
+	margin-left: 40%;
+}
+.slide{
+		width: 300%;
+		display: flex;
+		position: relative;
+		animation: slider 20s infinite;
+}
+.slide-content{
+		width: 32%;
+		margin: 2%;
+		display: flex;
+		float: left;
+		position: relative;
+}
+.slide-content .left-side{
+		width: 48%;
+		margin: auto;
+}
+.slide-content .left-side img{
+		width: 90%;
+}
+.slide-content .right-side{
+		width: 48%;
+		margin: auto;
+		padding: 20px;
+}
+@keyframes slider{
+		0%{left:0%}
+		10%{left:0%}
+		20%{left:-100%}
+		30%{left:-100%}
+		40%{left:-200%}
+		50%{left:-200%}
+		60%{left:-100%}
+		70%{left:-100%}
+		80%{left:0%}
+		90%{left:0%}
+
+}
+.right-side h1{
+	font-size: 25px;
+	color: darkblue;
+	margin-bottom: 20px;
+}
+.right-side p{
+	font-size: 15px;
+	color: darkblue;
+	margin-bottom: 20px;
+	opacity: 0.6;
+}
+.right-side h3{
+	font-size: 25px;
+	color: darkblue;
+}
+
+/*/carsoual end/*/
+
+/*/image part start/*/
+.images{
+	width: 99%;
+	display: flex;
+	margin: auto;
+}
+.images .myimage{
+	width: 49.5%;
+	height: 400px;
+	margin: 5px;
+	border: 1px solid black;
+}
+.images1{
+	width: 99%;
+	display: flex;
+	margin: auto;
+}
+.images1 .myimage{
+	width: 33%;
+	height: 400px;
+	margin: 5px;
+	border: 1px solid black;
+}
+#one{
+	background-image: url(images/projct.jpg);
+	background-size: cover;
+}
+#two{
+	background-image: url(images/yt.jpg);
+	background-size: cover;
+}
+#three{
+	background-image: url(images/front.jpg);
+	background-size: cover;
+}
+#four{
+	background-image: url(images/back.jpg);
+	background-size: cover;
+}
+#five{
+	background-image: url(images/ui.jpg);
+	background-size: cover;
+}
+#one:hover{
+	background-size: 105%;
+}
+#two:hover{
+	background-size: 105%;
+}
+#three:hover{
+	background-size: 105%;
+}
+#four:hover{
+	background-size: 105%;
+}
+#five:hover{
+	background-size: 105%;
+}
+.images .imagedetail{
+	width: 80%;
+	height: 10%;
+	background-color: navy;
+	color: whitesmoke;
+	padding: 10px;
+	font-size: 30px;
+	margin-top: 45%;
+	margin-left: 15%;
+	border: 1px solid grey;
+	display: none;
+	border-radius: 20px;
+}
+.images1 .imagedetail{
+	width: 80%;
+	height: 10%;
+	background-color: navy;
+	color: whitesmoke;
+	padding: 10px;
+	font-size: 30px;
+	margin-top: 68%;
+	margin-left: 15%;
+	border: 1px solid grey;
+	display: none;
+	border-radius: 20px;
+}
+.myimage:hover .imagedetail{
+	display: block;
+	opacity: 0.8;
+
+}
+/*	images with details part end*/
+/*/Frequently asked questions/*/
+.faqs{
+	width: 95%;
+	margin: auto;
+	margin-top: 50px;
+
+	
+}
+#colour{
+	margin-left: 36%;
+}
+.faqs .colour{
+	margin-left: 40%;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.faqs h1{
+	font-size: 40px;
+	color: darkblue;
+	text-align: center;
+}
+.question{
+	width: 80%;
+	height: 4vh;
+	background-color: darkblue;
+	color: whitesmoke;
+	font-size: 25px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	
+}
+.answer{
+	width: 80%;
+	height: 4vh;
+	background-color: darkblue;
+	color: whitesmoke;
+	font-size: 20px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	display: none;
+	
+}
+#q1:hover ~ #a1, #q2:hover ~ #a2{
+	display: block;
+}
+#q3:hover ~ #a3, #q4:hover ~ #a4, #q5:hover ~ #a5{
+	display: block;
+}
+
+/*/frequently asked question end/*/
+/*/freelancer part start/*/
+
+.freelancer{
+	background-image: url(images/bg1.jpg);
+	width: 99%;
+	height: 43vh;
+	text-align: center;
+	margin-top: 50px;
+	padding-top:120px;
+	padding-bottom: 50px;
+}
+.freelancer h1{
+	text-align: center;
+	font-size: 40px;
+	color: darkblue;
+	opacity: 0.9;
+	}
+.freelancer button{
+	margin-top: 20px;
+	padding: 10px 20px 10px 20px;
+	
+}
+
+/*/freelancer part end/*/
+
+/* footer part start */
+
+footer{
+	background-image: url(images/bg2.jpg);
+	display: flex;
+	width: 100%;
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.left-foot{
+	width: 35%;
+	margin: auto;
+}
+.left-foot h1{
+	font-size: 40px;
+	color: white;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.left-foot h5{
+	font-size: 20px;
+	padding: 20px;
+}
+.left-foot p{
+	color: whitesmoke;
+	font-size: 30px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+.copy{
+	width: 90%;
+	margin: auto;
+	padding: 10px 0px 2px 40px;
+	background-color: rgba(255, 255, 255, .1);
+}
+.copy img{
+	width: 15%;
+}
+.copy p{
+	font-size: 15px;
+	color: whitesmoke;
+}
+.right-foot{
+	width: 35%;
+	height: auto;
+	background-color: whitesmoke;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 55px;
+}
+.right-foot input{
+	display: block;
+	width: 75%;
+	height: 8vh;
+	padding-left: 20px;
+	font-size: 22px;
+	margin: auto;
+	margin-top: 30px;
+	border: 2px solid navy;
+}
+.right-foot textarea{
+	display: block;
+	width: 75%;
+	height: 13vh;
+	margin: auto;
+	margin-top: 30px;
+	padding-left: 20px;
+	font-size: 22px;
+	border: 2px solid navy;
+}
+.right-foot input[type="submit"]{
+	width: 80%;
+	text-align: center;
+	color: darkblue;
+	background-color: #00e6ac;
+	font-size: 20px;
+}
+.right-foot input[type="submit"]:hover{
+	background-color: navy;
+	color: white;
+}
+.right-foot ul{
+	margin-left: 40%;
+	display: inline;
+	padding: 20px;
+}
+.right-foot ul li{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: navy;
+	position: relative;
+	margin: 15px 5px;
+}
+.right-foot ul li i{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	color: whitesmoke;
+}
+/*footer part end*/
